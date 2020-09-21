@@ -5,7 +5,7 @@ import './App.scss';
 const App = () => (
   <div className='Container'>
     <div className='Card'>
-      <h1 className='Title'>👋 Hello world, this is a react application</h1>
+      <h1 className='Title'>👋 Hello world, this is a react application.</h1>
       <p className='Content'>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam aspernatur blanditiis
         laboriosam facere, molestias nobis dicta neque nostrum voluptates minus placeat omnis iure
