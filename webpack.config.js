@@ -15,6 +15,22 @@ module.exports = {
         use: ['style-loader', 'css-loader']
       },
       {
+        test: /\.(scss|sass)$/,
+        use: [
+          'style-loader',
+          'css-loader',
+          {
+            loader: 'sass-loader',
+            options: {
+              implementation: require('sass'),
+              sassOptions: {
+                fiber: false
+              }
+            }
+          }
+        ]
+      },
+      {
         test: /\.html$/,
         use: ['html-loader']
       }
