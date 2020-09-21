@@ -18,11 +18,11 @@ module.exports = {
         test: /\.html$/,
         use: ['html-loader']
       }
-    ],
-    plugins: [
-      new HtmlWebpackPlugin({
-        template: './index.html'
-      })
     ]
-  }
+  },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: './index.html'
+    })
+  ]
 };
